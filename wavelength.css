@@ -1,0 +1,23 @@
+ body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+    }
+
+    #top {
+        background: linear-gradient(#050500, rgb(8, 14, 29), rgb(40, 60, 110));
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #abb874;
+    }
+
+    #universe {
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+        background: linear-gradient(#22405c, #2f567a, #3c6992)
+    }
