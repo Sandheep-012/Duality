@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width", initial-scale = "1.0">
-	<link rel = "stylesheet" href = "wavelength.css">
-	<link rel = "icon" href = "assets/favicon.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="wavelength.css">
+	<link rel="icon" href="assets/favicon.ico">
 	<title> Duality </title>
 </head>
 
 <body>
+	
 	<div id='universe'>
-		<a href='https://github.com/Sandheep-012/Duality/'>Duality</a>
-		<a href='https://www.youtube.com'>Youtube</a>
-		<a href='https://gemini.google.com'>Gemini</a>			<!-- link for now at the time of editting -->
-        <div id='search-bar'></div>
-		<div id='space'>
-			<div id='duality'></div>					<!-- logo with wave which collapse to 'particle' on hover -->
-		</div>
+		<div id='duality'></div> <!-- logo with wave which collapse to 'particle' on hover -->
+		<form action="https://www.google.com/search" method="GET" id="search-bar">
+			<input type="text" name="q" placeholder="Search.." autocomplete="off" autofocus>
+			<button type="submit" id="search-icon">Search</button>
+		</form>
 	</div>
+
 	<div id='icon-bar'>
-		<div id='chess' class='icons'></div>
-		<div id='gemini' class='icons'></div>
-		<div id='marks' class='icons'></div>
+		<a href="https://www.chess.com/">
+			<div id='chess' class='icons'></div>
+		</a>
+		<a href="https://gemini.google.com/">
+			<div id='gemini' class='icons'></div>
+		</a>
+		<a href="https://web.getmarks.app/">
+			<div id='marks' class='icons'></div>
+		</a>
+		<a href="https://github.com/Sandheep-012/Duality/">
+			<div id="github" class="icons"></div>
+		</a>
 	</div>
 </body>
 
 <script src="transition.js"> </script>
+
 </html>
