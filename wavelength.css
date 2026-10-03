@@ -1,23 +1,68 @@
  body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        font-family: sans-serif;
-    }
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     display: flex;
+     font-family: sans-serif;
+ }
 
-    #top {
-        background: linear-gradient(#050500, rgb(8, 14, 29), rgb(40, 60, 110));
-        width: 100vw;
-        height: 5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #abb874;
-    }
+ #universe {
+     width: 90vw;
+     height: 100vh;
+     display: flex;
+     background: linear-gradient(#306da7, #46729b, #7cbefc);
+ }
 
-    #universe {
-        width: 100vw;
-        height: 95vh;
-        display: flex;
-        background: linear-gradient(#22405c, #2f567a, #3c6992)
-    }
+ #icon-bar {
+     width: 10vw;
+     height: 100vh;
+     border-left-style: solid;
+     border-left-width: 1px;
+     border-left-color: black;
+     background: linear-gradient(#378357, #5fa075, #a1dabf);
+ }
+
+ .icons {
+     position: relative;
+     margin-top: 5%;
+     margin-left: 15%;
+     margin-right: 15%;
+     width: 70%;
+     height: 14%;
+     display: block;
+     aspect-ratio: 1/1;
+     text-align: center;
+     align-content: center;
+     font-size: 100%;
+     border-style: solid;
+     border-radius: 50%;
+     transition: transform 0.2s ease-in-out;
+ }
+
+ .icons:hover {
+     transform: scale(1.1);
+ }
+
+ #chess {
+     background-image: url(chess.png);
+     background-position: center;
+     background-size: cover;
+ }
+
+ #gemini {
+     background-image: url(gemini.png);
+     background-position: center;
+     background-size: cover;
+ }
+
+ #marks {
+     background-image: url(marks.png);
+     background-position: center;
+     background-size: cover;
+ }
+
+ #github {
+     background-image: url(github.png);
+     background-position: center;
+     background-size: cover;
+ }
