@@ -44,25 +44,25 @@
  }
 
  #chess {
-     background-image: url(chess.png);
+     background-image: url(assests/chess.png);
      background-position: center;
      background-size: cover;
  }
 
  #gemini {
-     background-image: url(gemini.png);
+     background-image: url(assets/gemini.png);
      background-position: center;
      background-size: cover;
  }
 
  #marks {
-     background-image: url(marks.png);
+     background-image: url(assets/marks.png);
      background-position: center;
      background-size: cover;
  }
 
  #github {
-     background-image: url(github.png);
+     background-image: url(assets/github.png);
      background-position: center;
      background-size: cover;
  }
