@@ -66,3 +66,9 @@
      background-position: center;
      background-size: cover;
  }
+
+#whatsapp {
+     background-image: url(assets/whatsapp.png);
+     background-position: center;
+     background-size: cover;
+ }
